@@ -4,7 +4,7 @@ const bot = new Discord.Client();
 bot.on('guildMemberAdd', function(member) {
     member.guild.channels.find('name', 'general').sendMessage(member.toString() + ' Welcome To The NIGGER™ Discord, You Are Now A Nigger, For A Custom Nigger Role Type !customrole');
 
-    member.addRole(member.guild.roles.find('name', 'Member'));
+    member.addRole(member.guild.roles.find('name', 'NIGGER'));
 });
 
 bot.on("message", (message) => {
